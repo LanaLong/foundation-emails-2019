@@ -75,9 +75,10 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
 
             <spacer size="10"></spacer>
             <center>
-            <button class="sleeping-button" href="{{sale}}">Начать покупки</button>
+            <button class="email-button" href="{{sale}}">Начать покупки</button>
             </center>
-            <spacer size="20"></spacer>
+            <spacer size="5" class="hide-for-large"></spacer>
+            <!-- <spacer size="5" class="show-for-large"></spacer> -->
 
         </columns>
     </row>
@@ -88,27 +89,59 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
             
             <spacer size="10"></spacer>
             <center>
-                <p class="text-center">Покрывало и шторы АЙРИС</p>
-                <button class="sleeping-button" href="{{iris}}">Купить</button>
+                <div class="hide-for-large">
+                    <p class="text-center">Покрывало и шторы АЙРИС</p>
+                    <button class="email-button" href="{{iris}}">Купить</button>
+                </div>
             </center>
-            <spacer size="20"></spacer>
-            
         </columns>
     </row>
-    
+
+    <!-- DESKTOP ONLY -->
+    <row class="show-for-large">
+        <columns small="12" large="6" valign="middle">
+            <center>
+                <button class="email-button" href="{{iris}}">Купить</button>
+            </center>
+        </columns>
+
+        <columns small="12" large="6" valign="middle">
+            <p class="text-center">Покрывало и шторы АЙРИС</p>
+        </columns>
+    </row>
+    <spacer size="5"></spacer>
+    <!-- /DESKTOP ONLY -->
+    <!-- ============ -->
+
     <row class="main-banner">
         <columns>
             <a href="{{lena}}"><img src="{{localBase}}sale-04-min.jpg" alt=""></a>
             
             <spacer size="10"></spacer>
             <center>
-                <p class="text-center">Подушка Лена</p>
-                <button class="sleeping-button" href="{{lena}}">Купить</button>
+                <div class="hide-for-large">
+                    <p class="text-center">Подушка ЛЕНА</p>
+                    <button class="email-button" href="{{lena}}">Купить</button>
+                </div>
             </center>
-            <spacer size="20"></spacer>
-        
         </columns>
     </row>
+    
+    <!-- DESKTOP ONLY -->
+    <row class="show-for-large">
+        <columns small="12" large="6" valign="middle">
+            <p class="text-center">Подушка ЛЕНА</p>
+        </columns>
+        
+        <columns small="12" large="6" valign="middle">
+            <center>
+                <button class="email-button" href="{{lena}}">Купить</button>
+            </center>
+        </columns>
+    </row>
+    <spacer size="5"></spacer>
+    <!-- /DESKTOP ONLY -->
+    <!-- ============ -->
     
     <row class="main-banner">
         <columns>
@@ -116,12 +149,32 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
             
             <spacer size="10"></spacer>
             <center>
-                <p class="text-center">Комплект постельного белья МАРИОН</p>
-                <button class="sleeping-button" href="{{marion}}">Купить</button>
+                <div class="hide-for-large">
+                    <p class="text-center">Постельное белье МАРИОН</p>
+                    <button class="email-button" href="{{marion}}">Купить</button>
+                </div>
             </center>
-            <spacer size="20"></spacer>
         </columns>
     </row>
+    <spacer size="10"></spacer>
+
+    <!-- DESKTOP ONLY -->
+    <row class="show-for-large">
+        <columns small="12" large="6" valign="middle">
+            <center>
+                <button class="email-button" href="{{marion}}">Купить</button>
+            </center>
+            <spacer size="10"></spacer>
+        </columns>
+    
+        <columns small="12" large="6" valign="middle">
+            <p class="text-center">Постельное белье МАРИОН</p>
+        </columns>
+    </row>
+    <spacer size="5"></spacer>
+    <!-- /DESKTOP ONLY -->
+    <!-- ============ -->
+
     
     <row class="main-banner">
         <columns>
@@ -129,12 +182,30 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
             
             <spacer size="10"></spacer>
             <center>
-                <p class="text-center">Полотенце ВИНСАНТО</p>
-                <button class="sleeping-button" href="{{vinsanto}}">Купить</button>
+                <div class="hide-for-large">
+                    <p class="text-center">Полотенце ВИНСАНТО</p>
+                    <button class="email-button" href="{{vinsanto}}">Купить</button>
+                </div>
             </center>
-            <spacer size="20"></spacer>
         </columns>
     </row>
+    <spacer size="0"></spacer>
+                    
+    
+    <!-- DESKTOP ONLY -->
+    <row class="show-for-large">
+        <columns small="12" large="6" valign="middle">
+            <p class="text-center">Полотенце ВИНСАНТО</p>
+        </columns>
+    
+        <columns small="12" large="6" valign="middle">
+            <center>
+                <button class="email-button" href="{{vinsanto}}">Купить</button>
+            </center>
+        </columns>
+    </row>
+    <!-- /DESKTOP ONLY -->
+    <!-- ============ -->
 
      
     <row class="main-banner">
@@ -142,15 +213,12 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
             <center>
                 <spacer size="16"></spacer>
                 <img src="{{localBase}}sale-small.png" alt="">
-
                 <spacer size="25"></spacer>
-                
-                <button class="sleeping-button" href="{{sale}}" style="background-color: transparent; border: 2px solid black; text-transform: uppercase; color: #000000">Начать покупки</button>
+                <button class="email-button" href="{{sale}}" style="background-color: transparent; border: 2px solid black; text-transform: uppercase; color: #000000">Начать покупки</button>
+                <spacer size="10"></spacer>
             </center>
-
         </columns>
     </row>
-
 
     <hr />
 </wrapper>   
@@ -158,11 +226,9 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
 <wrapper class="footer">
   <row class="footer">
     <columns>
-
       <spacer size="16"></spacer>
-
       <p class="text-center" style="text-transform: uppercase;">Наши контакты</p>
-      <p class="text-center"><a href="mailto:hotline@togas.com" style="color: #333333;">hotline@togas.com</a>&nbsp;&nbsp;&nbsp;<strong>|</strong>&nbsp;&nbsp;&nbsp;<a href="tel:88005553771"  style="color: #333333;">8 800 555 37 71</a></p>
+      <p class="text-center"><a href="mailto:hotline@togas.com" style="color: #333333;">hotline@togas.com</a> <strong>|</strong> <a href="tel:88005553771"  style="color: #333333;">8 800 555 37 71</a></p>
 
         <center>
           <menu>
@@ -175,6 +241,7 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
         <center>
           <menu>
             <item href="#"><small style="color: #333333;">2019 Интернет-бутик Togas House of Textiles. All Rights Reserved.</small></item>
+            <spacer size="8"></spacer>
           </menu>
         </center>
       </columns>
@@ -186,9 +253,11 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
               <row class="collapse">   
             
               <columns>
-                <spacer size="0"></spacer>
-                <p class="text-center" style="margin-bottom: 0;" ><small>Вы получили это письмо, потому что подписались на рассылку на сайте <a href="{{togas-site}}" style="color: white;">www.togas.com</a>.<br />Если вы не хотите получать информацию о новых скидках и акциях, отпишитесь <a href="${Message.UnsubscribeLink}" style="color: white;">по ссылке.</a></small></p>
                 <spacer size="8"></spacer>
+                <p class="text-center" style="margin-bottom: 0;" ><small>Вы получили это письмо, потому что подписались на рассылку на сайте <a href="{{togas-site}}" style="color: white;">www.togas.com</a>.
+                <br />Если вы не хотите получать информацию о новых скидках и акциях, отпишитесь 
+                <a href="${Message.UnsubscribeLink}" style="color: white;">по ссылке.</a></small></p>
+                <spacer size="18"></spacer>
               </columns>
             </row>
           </container>
