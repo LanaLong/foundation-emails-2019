@@ -1,0 +1,210 @@
+.global-color{
+	background: #f7f7f7 !important;
+}
+
+.no-gutter{
+	padding: 0 !important;
+}
+
+.sleeping-phone-box{
+	background: #000;
+	height: 25px;
+	p{
+		color: #fff;
+		margin-bottom: 0;
+		line-height: 11px;
+		a{
+			color: #fff;
+			font-size: 11px;
+			line-height: 25px;
+			letter-spacing: 1px;
+		}
+	}
+}
+
+.sleeping-main{
+	.menu{
+		height: 40px;
+		border-bottom: 1px solid rgba(0,0,0,1);
+		.menu-item{
+			text-align: left;
+			a{
+				color: #000;
+				font-size: 12px;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+
+.sleeping-main-text{
+}
+
+// .outlined-button{
+// 	tr{
+// 		td{
+// 			tr{
+// 				td{
+// 				padding: 15px 60px;
+// 				cursor: pointer;
+// 				background: #000;
+// 				border: none;
+// 				text-transform: uppercase;
+// 				font-size: 12px;
+// 				letter-spacing: 2px;
+// 				text-align: center;
+// 				border: solid 1px #000;
+// 					a{
+// 					padding: 0;
+// 					font-size: 12px;
+// 					font-weight: normal;
+// 					border: none;
+// 					color: #0000000;
+
+// 					}
+// 				}
+// 			}
+// 		}
+// 	}
+// }
+
+.sleeping-button{
+	tr{
+		td{
+			tr{
+				td{
+				padding: 15px 60px;
+				cursor: pointer;
+				background: transparent  !important;
+				border: 1px solid black !important;
+				text-transform: uppercase;
+				font-size: 12px;
+				letter-spacing: 2px;
+				text-align: center;
+				border: solid 1px #000;
+				color: #000 !important;
+					a{
+					padding: 0;
+					font-size: 12px;
+					font-weight: normal;
+					border: 1px solid black;
+					color: #000  !important;
+
+					}
+				}
+			}
+		}
+	}
+}
+
+.sleeping-button:hover{
+	tr{
+		td{
+			tr{
+				td{
+				padding: 15px 60px;
+				cursor: pointer;
+				background: #fff;
+				border: none;
+				text-transform: uppercase;
+				font-size: 12px;
+				letter-spacing: 2px;
+				text-align: center;
+				border: solid 1px #000;
+					a{
+					padding: 0;
+					font-size: 12px;
+					font-weight: normal;
+					border: none;
+					color: #000;
+					}
+				}
+			}
+		}
+	}
+}
+
+.text-button{
+	tr{
+		td{
+			tr{
+				td{
+				padding: 0;
+				cursor: pointer;
+				background: none;
+				border: none;
+				text-transform: uppercase;
+				font-size: 12px;
+				letter-spacing: 2px;
+				text-align: center;
+					a{
+					color: #000 !important;
+					color: #000;
+					padding: 0;
+					font-size: 13px;
+					font-weight: normal;
+					border: none;
+					}
+				}
+			}
+		}
+	}
+}
+
+.text-button:hover{
+	tr{
+		td{
+			tr{
+				td{
+				border: none;
+				background: none;
+					a{
+					color: #000;
+					}
+				}
+			}
+		}
+	}
+}
+
+.sleeping-loyalty{
+	h2{
+		font-size: 18px;
+		text-align: center;
+	}
+	p{
+		text-align: center;
+	}
+	button{
+
+	}
+}
+
+.sleeping-shops{
+	border-top: solid 1px #000; 
+	border-bottom: solid 1px #000; 
+}
+
+
+table.row.followus{
+	.inner{
+		border-top: none;
+		p{
+			line-height: 25px;
+			text-align: center;
+			text-transform: uppercase;
+			letter-spacing: 0.5px;
+
+		}
+	}
+}
+
+.sleeping-bottom{
+	height: 15px;
+	border-bottom: solid 2px #000;
+		.copyright{
+			color: #000;
+			margin-bottom: 0;
+			font-size: 10px;
+		}
+}
