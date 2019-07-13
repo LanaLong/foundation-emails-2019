@@ -23,47 +23,55 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
 
 ---
 <style type="text/css">
-  .header.wrapper-inner {
+  /* .header.wrapper-inner {
     padding: 7px;
-  }
+  } */
 
-  .menu.menu-item a {
+  /* .menu.menu-item a {
     font-size: 12px;
-  }
+  } */
 </style>
 <container>
 
-<wrapper style="background-color: #000000;">
-  <container style="background-color: #000000; padding-bottom: 0;">
-  <row class="collapse">
-      <columns valign="middle" style="padding-bottom: 7px;">
-        <center>
-          <spacer size="8"></spacer>
-          <a href="tel:88005553771" class="text-center" style="color: #ffffff;">8 800 555 37 71</a>
-          <spacer size="0"></spacer>
-        </center>
+<wrapper class="header">
+  <container>
+  <row class="email-phone-box">
+      <columns valign="middle">
+        <p><a href="tel:88005553771" class="text-center">8 800 555 37 71</a></p>
       </columns>
   </row>
 </container>
 </wrapper>
- <!-- style="padding: 0; margin: 0;" -->
 
-  <row class="hide-mobile">
-    <columns small="12">
-      <center>
-        <spacer size="16"></spacer>
-          <img src="{{newAssets}}togas.png" alt="">
-        <spacer size="5"></spacer>
-      <hr />
-        <menu style="text-transform: uppercase;">
-          <item href="{{postel}}" style="font-size: 12px;">Постельное белье</item>
-          <item href="{{odeyala}}" style="font-size: 12px;">Одеяла</item>
-          <item href="{{podushki}}" style="font-size: 12px;">Подушки</item>
-          <item href="{{shtory}}" style="font-size: 12px;">Шторы</item>
-          <item href="{{poshiv}}" style="font-size: 12px;">Пошив на заказ</item>
-        </menu>
-      </center>
+<wrapper>
+    <container>
+        <row class="header-logo">
+            <columns valign="middle">
+                <center>
+                    <img src="{{newAssets}}togas.png" alt="Togas House of Textiles">
+                </center>
+            </columns>
+        </row>
+    </container>
+    <hr />
+</wrapper>
 
+<wrapper>
+        <row class="top-menu-controls">
+            <columns>
+                    <menu class="hide-mobile" style="text-transform: uppercase;">
+                        <item href="{{postel}}" style="font-size: 12px;">Постельное белье</item>
+                        <item href="{{odeyala}}" style="font-size: 12px;">Одеяла</item>
+                        <item href="{{podushki}}" style="font-size: 12px;">Подушки</item>
+                        <item href="{{shtory}}" style="font-size: 12px;">Шторы</item>
+                        <item href="{{poshiv}}" style="font-size: 12px;">Пошив на заказ</item>
+                    </menu>
+                
+            </columns>
+        </row>
+    
+        <row>
+            <columns>
       <!-- // MAIN BANNER SALE -->
       <a href="{{sale}}"><img src="{{localBase}}sale-031-min.jpg" alt=""></a>
 
@@ -73,6 +81,8 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
         <button class="sleeping-button" href="{{sale}}">Начать покупки</button>
       </center>
 
+            </columns>
+        </row>
       <spacer size="20"></spacer>
         <a href="{{iris}}"><img src="{{localBase}}sale-02-min.jpg" alt=""></a>
       <spacer size="10"></spacer>
@@ -95,17 +105,7 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
         <button class="sleeping-button" href="{{lena}}">Купить</button>
       </center>
 
-      <!-- <row>
-        <columns small="12" large="6"  valign="middle" >
-          <p class="text-center">Подушка Лена</p>
-        </columns>
-        <columns small="12" large="6" valign="middle">
-          <center> -->
-           <!-- <button class="sleeping-button" href="{{lena}}">Купить</button> -->
-         <!-- </center> -->
-        <!-- </columns> -->
-      <!-- </row> --> 
-
+      
       <spacer size="20"></spacer>
         <a href="{{marion}}"><img src="{{localBase}}sale-01-min.jpg" alt=""></a>
       <spacer size="10"></spacer>
@@ -116,16 +116,7 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
         <button class="sleeping-button" href="{{marion}}">Купить</button>
       </center>
 
-      <!-- <row>
-        <columns small="12" large="6" valign="middle"> -->
-          <!-- <center> -->
-           <!-- <button class="sleeping-button" href="{{marion}}">Купить</button> -->
-          <!-- </center> -->
-       <!--  </columns>
-        <columns small="12" large="6"  valign="middle" >
-          <p class="text-center">Комплект постельного белья МАРИОН</p>
-        </columns>
-      </row> -->
+      
 
       <spacer size="20"></spacer>
       <a href="{{vinsanto}}"><img src="{{localBase}}sale-05-min.jpg" alt=""></a>
@@ -138,25 +129,7 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
         <button class="sleeping-button" href="{{vinsanto}}">Купить</button>
       </center>
 
-     <!--  <row class="float-right">    
-        <columns small="12" large="6"  valign="middle">
-          <p class="text-center small-text-center">Полотенце ВИНСАНТО</p>
-      </columns> -->
-
-<!--         <row>
-          <columns small="12" large="6"  valign="middle">
-            <center>
-              <button href="#">Centered Button</button>
-            </center>
-          </columns>
-        </row> -->
-
-        <!-- <columns class="float-center" small="12" large="6" valign="middle"> -->
-          <!-- <center> -->
-           <!-- <button class="sleeping-button" href="{{vinsanto}}">Купить</button> -->
-         <!-- </center> -->
-       <!--  </columns>
-      </row> -->
+     
       <spacer size="20"></spacer>
 
       <center>
@@ -171,7 +144,9 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
     </columns>
   </row>
 
+
 <hr />
+</wrapper>   
 
 <wrapper class="footer">
   <row class="footer">

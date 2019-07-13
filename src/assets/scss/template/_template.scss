@@ -1,9 +1,9 @@
 // These are the styles to make some of the templates look extra nice.
 // Feel free to remove these styles for production!
 
-// Body Styles 
+// Body Styles
 body,
-html, 
+html,
 .body {
   background: #f3f3f3 !important;
 }
@@ -18,7 +18,8 @@ html,
 
 // Full Width Headers
 .header {
-  background: #8a8a8a;
+  background: #000;
+  padding: 0 !important;
 }
 
 .header .columns {
@@ -31,7 +32,10 @@ html,
 }
 
 .header .wrapper-inner {
-  padding: 20px;
+  padding: 8px;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    padding: 5px;
+  }
 }
 
 .header .container {
@@ -40,8 +44,8 @@ html,
 
 // Social Media
 table.button.facebook table td {
-  background: #3B5998 !important;
-  border-color: #3B5998;
+  background: #3b5998 !important;
+  border-color: #3b5998;
 }
 
 table.button.twitter table td {
@@ -50,10 +54,37 @@ table.button.twitter table td {
 }
 
 table.button.google table td {
-  background: #DB4A39 !important;
-  border-color: #DB4A39;
+  background: #db4a39 !important;
+  border-color: #db4a39;
 }
 
 .wrapper.secondary {
   background: #f3f3f3;
+}
+
+// for sale2019
+.header-logo .columns {
+  padding: 12px 12px 4px;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    padding: 12px 12px 4px;
+  }
+}
+
+.header-logo .wrapper-inner {
+  //   margin-top: 10 !important;
+  //   @media only screen and (max-width: #{$global-breakpoint}) {
+  //     // padding: 10 0 !important;
+  //   }
+}
+
+.hide-mobile {
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    // visibility: hidden;
+    display: none;
+  }
+}
+
+.top-menu-controls {
+  padding: 0 !important;
+  margin: 0 !important;
 }
