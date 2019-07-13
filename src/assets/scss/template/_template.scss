@@ -9,7 +9,7 @@ html,
 }
 
 .container.header {
-  background: #f3f3f3;
+  background: #000;
 }
 
 .body-drip {
@@ -87,4 +87,24 @@ table.button.google table td {
 .top-menu-controls {
   padding: 0 !important;
   margin: 0 !important;
+}
+
+.main-banner .columns {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+a img {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.main-banner .columns {
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+
+.main-banner .wrapper-inner {
+  padding: 0px 0px;
+  margin: 0px 0px;
 }
