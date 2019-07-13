@@ -42,7 +42,7 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
         <row class="header-logo">
             <columns valign="middle">
                 <center>
-                    <img src="{{newAssets}}togas.png" alt="Togas House of Textiles">
+                    <img src="{{newAssets}}togas.png" class="logo-img" alt="Togas House of Textiles">
                 </center>
             </columns>
         </row>
@@ -53,8 +53,9 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
 <wrapper>
     <row class="top-menu-controls">
         <columns>
-                <menu class="hide-mobile" style="text-transform: uppercase;">
-                    <item href="{{postel}}" style="font-size: 12px;">Постельное белье</item>
+                <!-- <menu class="hide-for-mobile" style="text-transform: uppercase; font-size: 12px;"> -->
+                <menu class="show-for-large" style="text-transform: uppercase; font-size: 12px;">
+                    <item href="{{postel}}" style="">Постельное белье</item>
                     <item href="{{odeyala}}" style="font-size: 12px;">Одеяла</item>
                     <item href="{{podushki}}" style="font-size: 12px;">Подушки</item>
                     <item href="{{shtory}}" style="font-size: 12px;">Шторы</item>
@@ -77,7 +78,8 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
             <center>
             <button class="email-button" href="{{sale}}">Начать покупки</button>
             </center>
-            <spacer size="5" class="hide-for-desktop"></spacer>
+            <spacer size="5" class="hide-for-large"></spacer>
+            <!-- <spacer size="5" class="show-for-large"></spacer> -->
 
         </columns>
     </row>
@@ -88,7 +90,7 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
             
             <spacer size="10"></spacer>
             <center>
-                <div class="hide-for-desktop">
+                <div class="hide-for-large">
                     <p class="text-center">Покрывало и шторы АЙРИС</p>
                     <button class="email-button" href="{{iris}}">Купить</button>
                 </div>
@@ -118,7 +120,7 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
             
             <spacer size="10"></spacer>
             <center>
-                <div class="hide-for-desktop">
+                <div class="hide-for-large">
                     <p class="text-center">Подушка ЛЕНА</p>
                     <button class="email-button" href="{{lena}}">Купить</button>
                 </div>
@@ -148,7 +150,7 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
             
             <spacer size="10"></spacer>
             <center>
-                <div class="hide-for-desktop">
+                <div class="hide-for-large">
                     <p class="text-center">Постельное белье МАРИОН</p>
                     <button class="email-button" href="{{marion}}">Купить</button>
                 </div>
@@ -181,7 +183,7 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
             
             <spacer size="10"></spacer>
             <center>
-                <div class="hide-for-desktop">
+                <div class="hide-for-large">
                     <p class="text-center">Полотенце ВИНСАНТО</p>
                     <button class="email-button" href="{{vinsanto}}">Купить</button>
                 </div>
@@ -227,7 +229,7 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
     <columns>
       <spacer size="16"></spacer>
       <p class="text-center" style="text-transform: uppercase;">Наши контакты</p>
-      <p class="text-center"><a href="mailto:hotline@togas.com" style="color: #333333;">hotline@togas.com</a> <strong>|</strong> <a href="tel:88005553771"  style="color: #333333;">8 800 555 37 71</a></p>
+      <p class="text-center contact"><a href="mailto:hotline@togas.com" style="color: #333333;">hotline@togas.com</a> <strong>|</strong> <a href="tel:88005553771"  style="color: #333333;">8 800 555 37 71</a></p>
 
         <center>
           <menu>
@@ -247,19 +249,22 @@ vinsanto: https://www.togas.com/ru/vannaya/polotence/polotence-vinsanto.html
     </row>
   </wrapper>
 
-         <wrapper class="header" style="background-color: #000000;">
+         <wrapper class="header" style="background-color: #f3f3f3;">
             <container>
               <row class="collapse">   
             
               <columns>
                 <spacer size="8"></spacer>
-                <p class="text-center" style="margin-bottom: 0;" ><small>Вы получили это письмо, потому что подписались на рассылку на сайте <a href="{{togas-site}}" style="color: white;">www.togas.com</a>.
+                <p class="text-center" style="margin-bottom: 0;" ><small>Вы получили это письмо, потому что подписались на рассылку на сайте <a href="{{togas-site}}" style="color: rgba(0,0,0, 0.4)">www.togas.com</a>.
                 <br />Если вы не хотите получать информацию о новых скидках и акциях, отпишитесь 
-                <a href="${Message.UnsubscribeLink}" style="color: white;">по ссылке.</a></small></p>
+                <a href="${Message.UnsubscribeLink}" style="color: rgba(0,0,0, 0.4)">по ссылке.</a></small></p>
                 <spacer size="18"></spacer>
               </columns>
             </row>
           </container>
         </wrapper>
-        
+
+
+  
+
 </container>

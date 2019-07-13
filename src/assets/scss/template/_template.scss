@@ -77,13 +77,13 @@ table.button.google table td {
   }
 }
 
-.hide-mobile {
+.hide-for-mobile {
   @media only screen and (max-width: #{$global-breakpoint}) {
     display: none;
   }
 }
 
-.hide-for-desktop {
+.show-for-mobile {
   @media only screen and (max-width: #{$global-breakpoint}) {
     display: block;
   }
@@ -145,5 +145,15 @@ hr {
     padding-left: 0px;
     padding-right: 0px;
     margin: 0;
+  }
+}
+
+.logo-img {
+  margin-bottom: 8px;
+}
+
+.contact {
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    font-size: 10px;
   }
 }
