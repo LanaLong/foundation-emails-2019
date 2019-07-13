@@ -64,23 +64,28 @@ table.button.google table td {
 
 // for sale2019
 .header-logo .columns {
-  padding: 12px;
+  padding: 12px 12px 12px;
   @media only screen and (max-width: #{$global-breakpoint}) {
-    padding: 12px;
+    padding: 12px 12px 12px;
   }
 }
 
 .header-logo .wrapper-inner {
-  //   margin-top: 10 !important;
-  //   @media only screen and (max-width: #{$global-breakpoint}) {
-  //     // padding: 10 0 !important;
-  //   }
+  margin-bottom: 10 !important;
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    margin-bottom: 10 !important;
+  }
 }
 
 .hide-mobile {
   @media only screen and (max-width: #{$global-breakpoint}) {
-    // visibility: hidden;
     display: none;
+  }
+}
+
+.hide-for-desktop {
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    display: block;
   }
 }
 
@@ -93,11 +98,6 @@ table.main-banner .columns a img {
   padding: 0 !important;
   margin: 0 !important;
 }
-
-// a img {
-//   padding: 0 !important;
-//   margin: 0 !important;
-// }
 
 .main-banner .columns {
   padding: 0px 0px;
