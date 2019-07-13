@@ -27,51 +27,24 @@
   }
 }
 
-.sleeping-main {
+.top-menu-controls {
   .menu {
     height: 40px;
-    border-bottom: 1px solid rgba(0, 0, 0, 1);
     .menu-item {
-      text-align: left;
+      text-align: center;
+      padding-bottom: 0 !important;
       a {
         color: #000;
-        font-size: 12px;
+        font-size: 13px;
         text-transform: uppercase;
       }
     }
   }
 }
 
-.sleeping-main-text {
+table.menu th.menu-item {
+  padding: 10px 10px 7px;
 }
-
-// .outlined-button{
-// 	tr{
-// 		td{
-// 			tr{
-// 				td{
-// 				padding: 15px 60px;
-// 				cursor: pointer;
-// 				background: #000;
-// 				border: none;
-// 				text-transform: uppercase;
-// 				font-size: 12px;
-// 				letter-spacing: 2px;
-// 				text-align: center;
-// 				border: solid 1px #000;
-// 					a{
-// 					padding: 0;
-// 					font-size: 12px;
-// 					font-weight: normal;
-// 					border: none;
-// 					color: #0000000;
-
-// 					}
-// 				}
-// 			}
-// 		}
-// 	}
-// }
 
 .sleeping-button {
   tr {
@@ -80,8 +53,8 @@
         td {
           padding: 12px 24px;
           cursor: pointer;
-          background: transparent !important;
-          border: 1px solid black !important;
+          background: transparent;
+          border: 1px solid black;
           text-transform: uppercase;
           font-size: 12px;
           letter-spacing: 2px;
@@ -105,9 +78,9 @@
     td {
       tr {
         td {
-          padding: 15px 60px;
+          padding: 12px 24px;
           cursor: pointer;
-          background: #fff;
+          background: #000;
           border: none;
           text-transform: uppercase;
           font-size: 12px;
@@ -119,7 +92,7 @@
             font-size: 12px;
             font-weight: normal;
             border: none;
-            color: #000;
+            color: #fff !important;
           }
         }
       }

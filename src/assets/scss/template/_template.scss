@@ -64,9 +64,9 @@ table.button.google table td {
 
 // for sale2019
 .header-logo .columns {
-  padding: 12px 12px 4px;
+  padding: 12px;
   @media only screen and (max-width: #{$global-breakpoint}) {
-    padding: 12px 12px 4px;
+    padding: 12px;
   }
 }
 
@@ -89,15 +89,15 @@ table.button.google table td {
   margin: 0 !important;
 }
 
-.main-banner .columns {
+table.main-banner .columns a img {
   padding: 0 !important;
   margin: 0 !important;
 }
 
-a img {
-  padding: 0 !important;
-  margin: 0 !important;
-}
+// a img {
+//   padding: 0 !important;
+//   margin: 0 !important;
+// }
 
 .main-banner .columns {
   padding: 0px 0px;
@@ -107,4 +107,43 @@ a img {
 .main-banner .wrapper-inner {
   padding: 0px 0px;
   margin: 0px 0px;
+}
+
+td.large-12.last,
+th.large-12.last {
+  padding-right: 16px;
+}
+td.large-12.first,
+th.large-12.first {
+  padding-left: 16px;
+}
+
+td.large-12,
+th.large-12 {
+  // width: 564px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+td.columns,
+td.column,
+th.columns,
+th.column {
+  // margin: 0 auto;
+  // Margin: 0 auto;
+  padding-left: 16px;
+  //   padding-bottom: 16px;
+  padding-bottom: 0px;
+}
+
+hr {
+  margin: 0 !important;
+}
+
+.main-banner td.small-12,
+.main-banner th.small-12 {
+  @media only screen and (max-width: #{$global-breakpoint}) {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0;
+  }
 }
